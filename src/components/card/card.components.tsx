@@ -8,9 +8,9 @@ import {
 } from 'react-icons/fa'
 
 interface props {
-  income: string,
-  expense: string,
-  total: string
+  income: string | number,
+  expense: string | number,
+  total: string | number
 }
 
 const Card = ({ income, expense, total}: props) => {

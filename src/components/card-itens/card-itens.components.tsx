@@ -5,7 +5,7 @@ import * as C from "./cart-itens.style"
 interface props {
     title: string,
     Icon: any,
-    value: string
+    value: string | number
 }
 
 const CardItem = ({ title, Icon, value }: props) => {

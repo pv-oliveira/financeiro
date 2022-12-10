@@ -28,9 +28,9 @@ const GridItem = ({ item, onDelete }: Props) => {
           <FaRegArrowAltCircleUp color="green" />
         )}
       </C.Td>
-      <C.Td alignCenter>
+      <C.TdImg>
         <FaTrash onClick={() => onDelete(item.id)} />
-      </C.Td>
+      </C.TdImg>
     </C.Tr>
   );
 };

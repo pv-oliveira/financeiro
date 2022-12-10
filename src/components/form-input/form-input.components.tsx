@@ -11,7 +11,7 @@ interface props {
 
 const Form = ({ handleAdd, transactionsList, setTransactionsList }: props) => {
   const [desc, setDesc] = useState("");
-  const [amount, setAmount] = useState<any>('');
+  const [amount, setAmount] = useState<number | string >(0);
   const [date, setDate] = useState("");
   const [isExpense, setIsExpense] = useState(false);
 
